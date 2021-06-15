@@ -1,6 +1,5 @@
 {
   "name": "portfolio",
-  "homepage": "https://levischwartzberg.github.io/DevPortfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
