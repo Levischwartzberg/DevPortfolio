@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    /* color: #9ba1af; */
+    z-index: 1;
+}
+
+header ul {
+    text-align: center;
+    list-style-type: none;
+}
+
+/* header nav {
+    padding: 7px 0 2px 0;
+    background-color: hsl(39, 43%, 31%,.7);
+} */
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    opacity: 100%;
+}
+
+li a:hover {
+    color: #851713;
+    font-weight: bold;
+}
+
+header li {
+    margin-right: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+html {
+    /* The scroll padding works in most browsers, but notably not in Safari or internet explorer, resulting in less than ideal UX in those browsers.*/
+    scroll-padding-top: 65px;
+}

@@ -1,0 +1,9 @@
+img {
+    width: 100%;
+    min-width: 250px;
+}
+
+.project-title {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}

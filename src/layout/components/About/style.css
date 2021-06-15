@@ -1,0 +1,25 @@
+#bio, .portfolio {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.background {
+    background-color: #d8c7b2;
+    border-top: solid 5px #aa231e;
+    border-bottom: solid 5px #aa231e;
+}
+
+#bio-text > p, h2 {
+    color: black;
+}
+
+#portrait {
+    border: solid #aa231e 5px;
+    border-radius: 1000px;
+}
+
+#bio-header {
+    color: black;
+}

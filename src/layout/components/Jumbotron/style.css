@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+.jumbo {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Oswald', sans-serif;
+    color: #f3f3f3;
+}
+
+#jumbo-title {
+    font-size: 75px;
+    text-shadow: -2px 2px #2e2d2d;
+}
+
+@media screen and (max-width: 950px) {
+    #jumbo-title {
+        font-size: 60px;
+        text-shadow: -2px 2px #2e2d2d;
+    }
+  }
+@media screen and (max-width: 750px) {
+    #jumbo-title {
+        font-size: 40px;
+        text-shadow: -2px 2px #2e2d2d;
+    }
+  }
+@media screen and (max-width: 550px) {
+    #jumbo-title {
+        font-size: 30px;
+        text-shadow: -2px 2px #2e2d2d;
+    }
+  }

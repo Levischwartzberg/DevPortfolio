@@ -1,0 +1,31 @@
+#contact {
+    background-color: #d8c7b2;
+    border-top:  #aa231e 5px solid;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+.contact {
+    padding-left: 75px;
+}
+
+#contact-head {
+    padding-left: 75px;
+    color: black;
+}
+
+text {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.info ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    opacity: 100%;
+}
+
+li {
+    list-style: none;
+}
