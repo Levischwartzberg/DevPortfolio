@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import styled from 'styled-components';
+import Logo from '../Logo';
 
 function Header(props) {
     const Nav = styled.nav`
@@ -12,17 +13,25 @@ function Header(props) {
         <div>
             <header>
                 <Nav>
-                    <ul>
-                        <li>
-                            <a href="#bio">About Me</a>
-                        </li>
-                        <li>
-                            <a href="#portfolio">Work</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact Me</a>
-                        </li>
-                    </ul>
+                    <div className="row">
+                        <div className="col-2">
+                            <Logo/>
+                        </div>
+                        <div className="col-8">
+                            <ul>
+                                <li>
+                                    <a href="#bio">About Me</a>
+                                </li>
+                                <li>
+                                    <a href="#portfolio">Work</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Contact Me</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div className="col-2"></div>
+                    </div>
                 </Nav>
             </header>
         </div>

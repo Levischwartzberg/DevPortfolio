@@ -18,6 +18,7 @@
 #portrait {
     border: solid #aa231e 5px;
     border-radius: 1000px;
+    min-width: 225px;
 }
 
 #bio-header {
