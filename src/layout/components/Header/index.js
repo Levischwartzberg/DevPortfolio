@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import styled from 'styled-components';
 import Logo from '../Logo';
+import { Link } from 'react-router-dom';
 
 function Header(props) {
     const Nav = styled.nav`
@@ -14,10 +15,12 @@ function Header(props) {
             <header>
                 <Nav>
                     <div className="row">
-                        <div className="col-2">
-                            <Logo/>
+                        <div className="col-1 col-md-2">
+                            <a href="#">
+                                <Logo/>
+                            </a>
                         </div>
-                        <div className="col-8">
+                        <div className="col-10 col-md-8">
                             <ul>
                                 <li>
                                     <a href="#bio">About Me</a>
@@ -30,7 +33,7 @@ function Header(props) {
                                 </li>
                             </ul>
                         </div>
-                        <div className="col-2"></div>
+                        <div className="col-1 col-md-2"></div>
                     </div>
                 </Nav>
             </header>
