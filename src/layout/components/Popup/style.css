@@ -1,0 +1,43 @@
+.popup-background {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.50);
+    width: 100%;
+    height: 100%;
+}
+
+.popup {
+    position: absolute;
+    background-image: linear-gradient(#383434, #5f5a5a);
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0; 
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.preview > img {
+    margin: auto;
+    max-height: 500px;
+}
+
+.close-button {
+    text-align: right;
+}
+
+.project-title {
+    border-radius: 2px;
+    border: solid white;
+    background-color: white;
+    width: max-content;
+}
+
+.project-info {
+    border-radius: 2px;
+    border: solid white;
+    background-color: white;
+    width: max-content;
+}
