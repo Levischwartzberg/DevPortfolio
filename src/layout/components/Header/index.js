@@ -20,7 +20,7 @@ function Header(props) {
                                 <Logo/>
                             </a>
                         </div>
-                        <div className="col-10 col-md-8">
+                        <div className="col-11 col-md-8">
                             <ul>
                                 <li>
                                     <a href="#bio">About Me</a>
@@ -31,9 +31,12 @@ function Header(props) {
                                 <li>
                                     <a href="#contact">Contact Me</a>
                                 </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/18gm97gP5VYhTDeOSK9UyNkZXdk1ZEp4j/view?usp=sharing" target="_blank">Resume</a>
+                                </li>
                             </ul>
                         </div>
-                        <div className="col-1 col-md-2"></div>
+                        <div className="col-0 col-md-2"></div>
                     </div>
                 </Nav>
             </header>
